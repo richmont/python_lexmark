@@ -1,4 +1,4 @@
-# Lexmark-python
+# python_lexmark
 API não oficial para coleta de informações de impressoras Lexmark  
 No momento o único modelo suportado é a MS811
 
