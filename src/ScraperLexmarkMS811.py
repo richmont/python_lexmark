@@ -116,10 +116,10 @@ suportado pelo scraper
         tags_paper = soup_status.find_all("table", {"style": "padding: .75pt"})
 
         for x in tags_paper:
-            # extract content under multiple tags
+            # extrai o conteúdo de hierarquia de tags
             lista_bandejas.append(x.tr.td.b.text)
 
-        # store positional data from array to respective tray variable
+        # armazena o conteúdo de lista de tags
         try:
             self.bandeja1 = lista_bandejas[0]
         except IndexError:
